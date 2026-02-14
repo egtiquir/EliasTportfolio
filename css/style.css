@@ -9,6 +9,7 @@ body {
   background-color: #0b0f14;
   color: #ffffff;
   line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* NAVIGATION */
@@ -55,6 +56,7 @@ nav a:hover {
   font-size: 52px;
   font-weight: 600;
   margin-bottom: 20px;
+  letter-spacing: -1px;
 }
 
 .hero p {
@@ -97,40 +99,12 @@ nav a:hover {
   border-color: #ffffff;
 }
 
+/* RESUME SECTION */
 .resume-section {
   padding: 140px 8% 80px 8%;
   max-width: 900px;
 }
 
-.resume-container h1 {
-  font-size: 48px;
-  margin-bottom: 10px;
-}
-
-.subtitle {
-  color: rgba(255,255,255,0.6);
-  margin-bottom: 60px;
-}
-
-.resume-block {
-  margin-bottom: 50px;
-}
-
-.resume-block h2 {
-  font-size: 20px;
-  margin-bottom: 15px;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
-  padding-bottom: 8px;
-}
-
-.resume-block p {
-  color: rgba(255,255,255,0.75);
-  margin-bottom: 6px;
-}
-
-.download-area {
-  margin-top: 60px;
-}
 .resume-header {
   margin-bottom: 70px;
 }
@@ -138,6 +112,12 @@ nav a:hover {
 .resume-container h1 {
   font-size: 52px;
   letter-spacing: -1px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: rgba(255,255,255,0.6);
+  margin-bottom: 60px;
 }
 
 .resume-block {
@@ -188,4 +168,8 @@ nav a:hover {
   border: 1px solid rgba(255,255,255,0.08);
   border-radius: 6px;
   font-size: 14px;
+}
+
+.download-area {
+  margin-top: 60px;
 }
