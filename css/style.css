@@ -97,3 +97,37 @@ nav a:hover {
   border-color: #ffffff;
 }
 
+.resume-section {
+  padding: 140px 8% 80px 8%;
+  max-width: 900px;
+}
+
+.resume-container h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: rgba(255,255,255,0.6);
+  margin-bottom: 60px;
+}
+
+.resume-block {
+  margin-bottom: 50px;
+}
+
+.resume-block h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding-bottom: 8px;
+}
+
+.resume-block p {
+  color: rgba(255,255,255,0.75);
+  margin-bottom: 6px;
+}
+
+.download-area {
+  margin-top: 60px;
+}
