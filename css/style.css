@@ -226,3 +226,32 @@ nav a:hover {
 .coming-soon-card p {
   color: rgba(255,255,255,0.6);
 }
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+
+  .hero h1,
+  .resume-container h1,
+  .work-container h1 {
+    font-size: 36px;
+  }
+
+  .hero p,
+  .work-subtext {
+    font-size: 16px;
+  }
+
+  nav {
+    padding: 16px 6%;
+  }
+
+  nav ul {
+    gap: 18px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+}
